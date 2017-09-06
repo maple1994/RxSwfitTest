@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="NoGeolocationView" customModule="MyRx" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Geolocation is not enabled for this app" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vAd-Hq-WmG">
+                    <rect key="frame" x="47.5" y="100" width="280" height="67.5"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="280" id="e2g-Nf-XzC"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                    <color key="textColor" red="0.94901960780000005" green="0.32549019610000002" blue="0.1333333333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please enable it in the app preferences" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AdQ-GO-n7s">
+                    <rect key="frame" x="47.5" y="175" width="280" height="42.5"/>
+                    <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Td3-32-pdB">
+                    <rect key="frame" x="87.5" y="248" width="200" height="28"/>
+                    <color key="backgroundColor" red="0.17483745810000001" green="0.60840499159999994" blue="0.84705882349999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="200" id="G0x-dT-NUW"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
+                    <state key="normal" title="OPEN APP PREFERENCES"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="3"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="AdQ-GO-n7s" firstAttribute="top" secondItem="vAd-Hq-WmG" secondAttribute="bottom" constant="8" id="4HV-HW-14p"/>
+                <constraint firstItem="AdQ-GO-n7s" firstAttribute="width" secondItem="vAd-Hq-WmG" secondAttribute="width" id="GNS-30-Aa0"/>
+                <constraint firstItem="Td3-32-pdB" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="ND7-86-1M9"/>
+                <constraint firstItem="AdQ-GO-n7s" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Rbl-Gk-nFd"/>
+                <constraint firstItem="vAd-Hq-WmG" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="100" id="cnm-Zo-ydT"/>
+                <constraint firstItem="Td3-32-pdB" firstAttribute="top" secondItem="AdQ-GO-n7s" secondAttribute="bottom" constant="30" id="mX0-CG-Wgg"/>
+                <constraint firstItem="vAd-Hq-WmG" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="qQz-Uw-nIF"/>
+            </constraints>
+            <connections>
+                <outlet property="openPreferenceButton2" destination="Td3-32-pdB" id="sJJ-I7-emg"/>
+            </connections>
+        </view>
+    </objects>
+</document>

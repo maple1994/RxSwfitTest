@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GitHubSignUpViewController2" customModule="MyRx" customModuleProvider="target">
+            <connections>
+                <outlet property="passwordOutlet" destination="4vd-wW-cTZ" id="hJH-6E-vmb"/>
+                <outlet property="passwordValidationOutlet" destination="OKF-2m-1ad" id="WaY-Y0-b30"/>
+                <outlet property="repeatedPasswordOutlet" destination="Qrp-Bj-IGh" id="bAW-oA-9Yr"/>
+                <outlet property="repeatedPasswordValidationOutlet" destination="ocN-SC-Arv" id="c6O-VU-U8c"/>
+                <outlet property="signingUpOulet" destination="c3n-du-K8O" id="Dbh-9r-Sr0"/>
+                <outlet property="signupOutlet" destination="Kgc-MA-Owm" id="vlI-8w-qKv"/>
+                <outlet property="usernameOutlet" destination="mAB-pq-p7t" id="xsb-e7-EG8"/>
+                <outlet property="usernameValidationOutlet" destination="WQS-mV-1hr" id="DZk-dC-Hxw"/>
+                <outlet property="view" destination="iN0-l3-epB" id="lv1-PM-UuN"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mAB-pq-p7t">
+                    <rect key="frame" x="37.5" y="80" width="300" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="300" id="Qf8-i4-RrC"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4vd-wW-cTZ">
+                    <rect key="frame" x="37.5" y="140" width="300" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="username validation" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WQS-mV-1hr">
+                    <rect key="frame" x="37.5" y="115" width="300" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="1" green="0.0" blue="0.090283701899999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password Repeat" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ObK-R9-q45">
+                    <rect key="frame" x="121.5" y="197" width="132.5" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="repeated password validation" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ocN-SC-Arv">
+                    <rect key="frame" x="37.5" y="232" width="300" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="1" green="0.0" blue="0.090283701899999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="password validation" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OKF-2m-1ad">
+                    <rect key="frame" x="37.5" y="175" width="300" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="1" green="0.0" blue="0.090283701899999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kgc-MA-Owm">
+                    <rect key="frame" x="37.5" y="283" width="300" height="44"/>
+                    <color key="backgroundColor" red="0.48034727570000002" green="0.85350489620000003" blue="0.35366713999999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="iPQ-hM-Tox"/>
+                    </constraints>
+                    <state key="normal" title="Sign up">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OE6-JH-jTc">
+                    <rect key="frame" x="37.5" y="345" width="300" height="143.5"/>
+                    <string key="text">Proving that observable sequences have wanted properties (UIThread, errors handled, sharing of side effects) is done manually. (but has some performance gain that shouldn't be noticeable in practice)
+
+To do this automatically, check out the corresponding `Driver` example.</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password Repeat" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Qrp-Bj-IGh">
+                    <rect key="frame" x="37.5" y="197" width="300" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                </textField>
+                <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="c3n-du-K8O">
+                    <rect key="frame" x="47.5" y="295" width="20" height="20"/>
+                </activityIndicatorView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="c3n-du-K8O" firstAttribute="centerY" secondItem="Kgc-MA-Owm" secondAttribute="centerY" id="1Vc-yS-B1L"/>
+                <constraint firstItem="Qrp-Bj-IGh" firstAttribute="top" secondItem="OKF-2m-1ad" secondAttribute="bottom" constant="5" id="1rL-4f-Qxm"/>
+                <constraint firstItem="ocN-SC-Arv" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="3G1-OP-guB"/>
+                <constraint firstItem="4vd-wW-cTZ" firstAttribute="width" secondItem="mAB-pq-p7t" secondAttribute="width" id="5cI-Gp-bBK"/>
+                <constraint firstItem="c3n-du-K8O" firstAttribute="leading" secondItem="Kgc-MA-Owm" secondAttribute="leading" constant="10" id="5yJ-eU-69N"/>
+                <constraint firstItem="OKF-2m-1ad" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="6Ob-Dm-Xdy"/>
+                <constraint firstItem="Qrp-Bj-IGh" firstAttribute="width" secondItem="OKF-2m-1ad" secondAttribute="width" id="DPQ-sJ-nAT"/>
+                <constraint firstItem="Kgc-MA-Owm" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Ed6-cG-KfK"/>
+                <constraint firstItem="OE6-JH-jTc" firstAttribute="top" secondItem="Kgc-MA-Owm" secondAttribute="bottom" constant="18" id="HVB-DB-jjW"/>
+                <constraint firstItem="ocN-SC-Arv" firstAttribute="top" secondItem="ObK-R9-q45" secondAttribute="bottom" constant="5" id="PNr-nB-ciJ"/>
+                <constraint firstItem="OE6-JH-jTc" firstAttribute="trailing" secondItem="Kgc-MA-Owm" secondAttribute="trailing" id="SWE-jB-q8n"/>
+                <constraint firstItem="Qrp-Bj-IGh" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="UDQ-kX-5GZ"/>
+                <constraint firstItem="WQS-mV-1hr" firstAttribute="top" secondItem="mAB-pq-p7t" secondAttribute="bottom" constant="5" id="UGM-Q7-n4X"/>
+                <constraint firstItem="Kgc-MA-Owm" firstAttribute="top" secondItem="ocN-SC-Arv" secondAttribute="bottom" constant="34" id="UMA-Wf-L4G"/>
+                <constraint firstItem="4vd-wW-cTZ" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Vz1-g8-Vyx"/>
+                <constraint firstItem="4vd-wW-cTZ" firstAttribute="top" secondItem="WQS-mV-1hr" secondAttribute="bottom" constant="8" id="WOl-It-WVT"/>
+                <constraint firstItem="WQS-mV-1hr" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="YN6-yq-pRj"/>
+                <constraint firstItem="mAB-pq-p7t" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="deG-Mx-bcj"/>
+                <constraint firstItem="OKF-2m-1ad" firstAttribute="width" secondItem="4vd-wW-cTZ" secondAttribute="width" id="kfg-Ea-PQ0"/>
+                <constraint firstItem="mAB-pq-p7t" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="80" id="n6B-wv-rrE"/>
+                <constraint firstItem="ObK-R9-q45" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="p8C-Xk-Vka"/>
+                <constraint firstItem="Kgc-MA-Owm" firstAttribute="width" secondItem="ocN-SC-Arv" secondAttribute="width" id="ugd-0w-jRE"/>
+                <constraint firstItem="ObK-R9-q45" firstAttribute="top" secondItem="OKF-2m-1ad" secondAttribute="bottom" constant="5" id="vOO-uW-HDO"/>
+                <constraint firstItem="OKF-2m-1ad" firstAttribute="top" secondItem="4vd-wW-cTZ" secondAttribute="bottom" constant="5" id="wTg-NC-FWS"/>
+                <constraint firstItem="OE6-JH-jTc" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="wmU-Iw-LCX"/>
+                <constraint firstItem="ocN-SC-Arv" firstAttribute="width" secondItem="Qrp-Bj-IGh" secondAttribute="width" id="x7z-RD-5MP"/>
+                <constraint firstItem="OE6-JH-jTc" firstAttribute="leading" secondItem="Kgc-MA-Owm" secondAttribute="leading" id="xLP-0P-dVX"/>
+                <constraint firstItem="WQS-mV-1hr" firstAttribute="width" secondItem="mAB-pq-p7t" secondAttribute="width" id="yM7-PR-azf"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

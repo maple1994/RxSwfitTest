@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		83A2DEA13FC78E8043E42303 /* Pods_MyRx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 472B9A61E30703C539A0B11F /* Pods_MyRx.framework */; };
+		F52584961F60D45500792094 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52584951F60D45500792094 /* Operators.swift */; };
 		F5675C591F5F7C8A0038C3DE /* GithubBindingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5675C511F5F7C8A0038C3DE /* GithubBindingViewController.swift */; };
 		F5675C5A1F5F7C8A0038C3DE /* GithubBindingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5675C521F5F7C8A0038C3DE /* GithubBindingViewController.xib */; };
 		F5675C5B1F5F7C8A0038C3DE /* GitHubDefaultAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5675C551F5F7C8A0038C3DE /* GitHubDefaultAPI.swift */; };
@@ -17,6 +18,8 @@
 		F5675C631F5F7D770038C3DE /* GitHubSignUpViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5675C621F5F7D770038C3DE /* GitHubSignUpViewController2.swift */; };
 		F5675C651F5F7D820038C3DE /* GitHubSignUpViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5675C641F5F7D820038C3DE /* GitHubSignUpViewController2.xib */; };
 		F5675C671F5F7D9F0038C3DE /* GitHubSignUpViewModel2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5675C661F5F7D9F0038C3DE /* GitHubSignUpViewModel2.swift */; };
+		F5675C6B1F6005100038C3DE /* APIWrappersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5675C691F6005100038C3DE /* APIWrappersViewController.swift */; };
+		F5675C6C1F6005100038C3DE /* APIWrappersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5675C6A1F6005100038C3DE /* APIWrappersViewController.xib */; };
 		F57E91CD1F570412004DD375 /* LocationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F57E91CC1F570412004DD375 /* LocationViewController.xib */; };
 		F57E91CF1F57055F004DD375 /* NoGeolocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57E91CE1F57055F004DD375 /* NoGeolocationView.swift */; };
 		F57E91D11F570567004DD375 /* NoGeolocationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F57E91D01F570567004DD375 /* NoGeolocationView.xib */; };
@@ -59,6 +62,7 @@
 		472B9A61E30703C539A0B11F /* Pods_MyRx.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyRx.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5525DBB61B7A182CC7811CAE /* Pods-MyRx.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyRx.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyRx/Pods-MyRx.release.xcconfig"; sourceTree = "<group>"; };
 		969CC944FE5FA5D12767A21C /* Pods-MyRx.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyRx.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyRx/Pods-MyRx.debug.xcconfig"; sourceTree = "<group>"; };
+		F52584951F60D45500792094 /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
 		F5675C511F5F7C8A0038C3DE /* GithubBindingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubBindingViewController.swift; sourceTree = "<group>"; };
 		F5675C521F5F7C8A0038C3DE /* GithubBindingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GithubBindingViewController.xib; sourceTree = "<group>"; };
 		F5675C551F5F7C8A0038C3DE /* GitHubDefaultAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubDefaultAPI.swift; sourceTree = "<group>"; };
@@ -68,6 +72,8 @@
 		F5675C621F5F7D770038C3DE /* GitHubSignUpViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubSignUpViewController2.swift; sourceTree = "<group>"; };
 		F5675C641F5F7D820038C3DE /* GitHubSignUpViewController2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GitHubSignUpViewController2.xib; sourceTree = "<group>"; };
 		F5675C661F5F7D9F0038C3DE /* GitHubSignUpViewModel2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubSignUpViewModel2.swift; sourceTree = "<group>"; };
+		F5675C691F6005100038C3DE /* APIWrappersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIWrappersViewController.swift; sourceTree = "<group>"; };
+		F5675C6A1F6005100038C3DE /* APIWrappersViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = APIWrappersViewController.xib; sourceTree = "<group>"; };
 		F57E91CC1F570412004DD375 /* LocationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LocationViewController.xib; sourceTree = "<group>"; };
 		F57E91CE1F57055F004DD375 /* NoGeolocationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoGeolocationView.swift; sourceTree = "<group>"; };
 		F57E91D01F570567004DD375 /* NoGeolocationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NoGeolocationView.xib; sourceTree = "<group>"; };
@@ -168,6 +174,16 @@
 			path = Other;
 			sourceTree = "<group>";
 		};
+		F5675C681F6000AC0038C3DE /* APIWrappers */ = {
+			isa = PBXGroup;
+			children = (
+				F52584951F60D45500792094 /* Operators.swift */,
+				F5675C691F6005100038C3DE /* APIWrappersViewController.swift */,
+				F5675C6A1F6005100038C3DE /* APIWrappersViewController.xib */,
+			);
+			path = APIWrappers;
+			sourceTree = "<group>";
+		};
 		F5C9EC851F5BFD1F00BB95A5 /* githubBinding */ = {
 			isa = PBXGroup;
 			children = (
@@ -226,6 +242,7 @@
 		F5F315691F54ECBE00CF017A /* MyRx */ = {
 			isa = PBXGroup;
 			children = (
+				F5675C681F6000AC0038C3DE /* APIWrappers */,
 				F5C9EC851F5BFD1F00BB95A5 /* githubBinding */,
 				F5E256681F564365003F5D2B /* locationManager */,
 				F5E256631F563B21003F5D2B /* validation */,
@@ -382,6 +399,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5F315751F54ECBE00CF017A /* LaunchScreen.storyboard in Resources */,
+				F5675C6C1F6005100038C3DE /* APIWrappersViewController.xib in Resources */,
 				F57E91CD1F570412004DD375 /* LocationViewController.xib in Resources */,
 				F5675C651F5F7D820038C3DE /* GitHubSignUpViewController2.xib in Resources */,
 				F57E91D11F570567004DD375 /* NoGeolocationView.xib in Resources */,
@@ -467,6 +485,8 @@
 				F5675C631F5F7D770038C3DE /* GitHubSignUpViewController2.swift in Sources */,
 				F5F2937E1F5CE01B00DA545D /* Protocols.swift in Sources */,
 				F5675C5D1F5F7C8A0038C3DE /* SharedSequence.swift in Sources */,
+				F5675C6B1F6005100038C3DE /* APIWrappersViewController.swift in Sources */,
+				F52584961F60D45500792094 /* Operators.swift in Sources */,
 				F5F3156B1F54ECBE00CF017A /* AppDelegate.swift in Sources */,
 				F5675C5E1F5F7C8A0038C3DE /* Wireframe.swift in Sources */,
 				F5F3159B1F54EEDC00CF017A /* PlusViewController.swift in Sources */,

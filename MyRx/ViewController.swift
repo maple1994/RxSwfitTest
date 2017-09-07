@@ -49,6 +49,9 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         case 4:
             cell?.textLabel?.text = "Github注册-使用Driver"
             cell?.detailTextLabel?.text = "简单的MVVM例子"
+        case 5:
+            cell?.textLabel?.text = "APIWrapper"
+            cell?.detailTextLabel?.text = "APIWrapper"
         default:
             break
         }
@@ -72,6 +75,9 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
             navigationController?.pushViewController(vc, animated: true)
         case 4:
             let vc = GitHubSignUpViewController2()
+            navigationController?.pushViewController(vc, animated: true)
+        case 5:
+            let vc = APIWrappersViewController()
             navigationController?.pushViewController(vc, animated: true)
         default:
             break

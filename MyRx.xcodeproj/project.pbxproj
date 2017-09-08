@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		83A2DEA13FC78E8043E42303 /* Pods_MyRx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 472B9A61E30703C539A0B11F /* Pods_MyRx.framework */; };
 		F52584961F60D45500792094 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52584951F60D45500792094 /* Operators.swift */; };
+		F52584A21F6195BD00792094 /* CalCulatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52584A01F6195BD00792094 /* CalCulatorViewController.swift */; };
+		F52584A31F6195BD00792094 /* CalCulatorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F52584A11F6195BD00792094 /* CalCulatorViewController.xib */; };
 		F5675C591F5F7C8A0038C3DE /* GithubBindingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5675C511F5F7C8A0038C3DE /* GithubBindingViewController.swift */; };
 		F5675C5A1F5F7C8A0038C3DE /* GithubBindingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5675C521F5F7C8A0038C3DE /* GithubBindingViewController.xib */; };
 		F5675C5B1F5F7C8A0038C3DE /* GitHubDefaultAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5675C551F5F7C8A0038C3DE /* GitHubDefaultAPI.swift */; };
@@ -63,6 +65,8 @@
 		5525DBB61B7A182CC7811CAE /* Pods-MyRx.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyRx.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyRx/Pods-MyRx.release.xcconfig"; sourceTree = "<group>"; };
 		969CC944FE5FA5D12767A21C /* Pods-MyRx.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyRx.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyRx/Pods-MyRx.debug.xcconfig"; sourceTree = "<group>"; };
 		F52584951F60D45500792094 /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
+		F52584A01F6195BD00792094 /* CalCulatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalCulatorViewController.swift; sourceTree = "<group>"; };
+		F52584A11F6195BD00792094 /* CalCulatorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalCulatorViewController.xib; sourceTree = "<group>"; };
 		F5675C511F5F7C8A0038C3DE /* GithubBindingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubBindingViewController.swift; sourceTree = "<group>"; };
 		F5675C521F5F7C8A0038C3DE /* GithubBindingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GithubBindingViewController.xib; sourceTree = "<group>"; };
 		F5675C551F5F7C8A0038C3DE /* GitHubDefaultAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubDefaultAPI.swift; sourceTree = "<group>"; };
@@ -142,6 +146,15 @@
 				5525DBB61B7A182CC7811CAE /* Pods-MyRx.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		F525849F1F6195AF00792094 /* Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				F52584A01F6195BD00792094 /* CalCulatorViewController.swift */,
+				F52584A11F6195BD00792094 /* CalCulatorViewController.xib */,
+			);
+			path = Calculator;
 			sourceTree = "<group>";
 		};
 		F5675C501F5F7C8A0038C3DE /* Bind */ = {
@@ -242,6 +255,7 @@
 		F5F315691F54ECBE00CF017A /* MyRx */ = {
 			isa = PBXGroup;
 			children = (
+				F525849F1F6195AF00792094 /* Calculator */,
 				F5675C681F6000AC0038C3DE /* APIWrappers */,
 				F5C9EC851F5BFD1F00BB95A5 /* githubBinding */,
 				F5E256681F564365003F5D2B /* locationManager */,
@@ -399,6 +413,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5F315751F54ECBE00CF017A /* LaunchScreen.storyboard in Resources */,
+				F52584A31F6195BD00792094 /* CalCulatorViewController.xib in Resources */,
 				F5675C6C1F6005100038C3DE /* APIWrappersViewController.xib in Resources */,
 				F57E91CD1F570412004DD375 /* LocationViewController.xib in Resources */,
 				F5675C651F5F7D820038C3DE /* GitHubSignUpViewController2.xib in Resources */,
@@ -486,6 +501,7 @@
 				F5F2937E1F5CE01B00DA545D /* Protocols.swift in Sources */,
 				F5675C5D1F5F7C8A0038C3DE /* SharedSequence.swift in Sources */,
 				F5675C6B1F6005100038C3DE /* APIWrappersViewController.swift in Sources */,
+				F52584A21F6195BD00792094 /* CalCulatorViewController.swift in Sources */,
 				F52584961F60D45500792094 /* Operators.swift in Sources */,
 				F5F3156B1F54ECBE00CF017A /* AppDelegate.swift in Sources */,
 				F5675C5E1F5F7C8A0038C3DE /* Wireframe.swift in Sources */,

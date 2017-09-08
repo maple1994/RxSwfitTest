@@ -52,6 +52,8 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         case 5:
             cell?.textLabel?.text = "APIWrapper"
             cell?.detailTextLabel?.text = "APIWrapper"
+        case 6:
+            cell?.textLabel?.text = "计算器"
         default:
             break
         }
@@ -78,6 +80,9 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
             navigationController?.pushViewController(vc, animated: true)
         case 5:
             let vc = APIWrappersViewController()
+            navigationController?.pushViewController(vc, animated: true)
+        case 6:
+            let vc = CalCulatorViewController()
             navigationController?.pushViewController(vc, animated: true)
         default:
             break

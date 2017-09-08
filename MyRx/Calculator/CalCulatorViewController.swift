@@ -47,22 +47,50 @@ class CalCulatorViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "计算器"
+        
+        let commands: Observable<CalculatorCommand> = Observable.merge([
+            allClearButton.rx.tap.map { _ in .clear},
+            changeSignButton.rx.tap.map { _ in .changeSign},
+            percentButton.rx.tap.map { _ in .percent},
+            
+            divideButton.rx.tap.map { _ in .operation(.division)},
+            multiplyButton.rx.tap.map { _ in .operation(.multiplication)},
+            minusButton.rx.tap.map { _ in .operation(.substraction)},
+            plusButton.rx.tap.map { _ in .operation(.addition)},
+            
+            equalButton.rx.tap.map { _ in .equal},
+            
+            dotButton.rx.tap.map { _ in .addDot},
+            
+            zeroButton.rx.tap.map { _ in .addNumber("0")},
+            oneButton.rx.tap.map { _ in .addNumber("1")},
+            twoButton.rx.tap.map { _ in .addNumber("2")},
+            threeButton.rx.tap.map { _ in .addNumber("3")},
+            fourButton.rx.tap.map { _ in .addNumber("4")},
+            fiveButton.rx.tap.map { _ in .addNumber("5")},
+            sixButton.rx.tap.map { _ in .addNumber("6")},
+            sevenButton.rx.tap.map { _ in .addNumber("7")},
+            eightButton.rx.tap.map { _ in .addNumber("8")},
+            nineButton.rx.tap.map { _ in .addNumber("9")}
+        ])
+        
+        let system = Observable.system(
+            CalculatorState.initial,
+            accumulator: CalculatorState.reduce,
+            scheduler: MainScheduler.instance,
+            feedback: { _ in commands }
+            )
+            .debug("calculator state")
+            .shareReplayLatestWhileConnected()
+        
+        system.map { $0.screen }
+        .bind(to: resultLabel.rx.text)
+        .addDisposableTo(disposeBag)
+        
+        system.map { $0.sign }
+        .bind(to: lastSignLabel.rx.text)
+        .addDisposableTo(disposeBag)
+        
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

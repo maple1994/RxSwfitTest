@@ -41,6 +41,7 @@
 		F5F3158B1F54ECBE00CF017A /* MyRxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F3158A1F54ECBE00CF017A /* MyRxUITests.swift */; };
 		F5F3159B1F54EEDC00CF017A /* PlusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F315991F54EEDC00CF017A /* PlusViewController.swift */; };
 		F5F3159C1F54EEDC00CF017A /* PlusViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5F3159A1F54EEDC00CF017A /* PlusViewController.xib */; };
+		F5F6CABE1F622373004ED2BE /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F6CABD1F622373004ED2BE /* Calculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +104,7 @@
 		F5F3158C1F54ECBE00CF017A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5F315991F54EEDC00CF017A /* PlusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlusViewController.swift; sourceTree = "<group>"; };
 		F5F3159A1F54EEDC00CF017A /* PlusViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlusViewController.xib; sourceTree = "<group>"; };
+		F5F6CABD1F622373004ED2BE /* Calculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +155,7 @@
 			children = (
 				F52584A01F6195BD00792094 /* CalCulatorViewController.swift */,
 				F52584A11F6195BD00792094 /* CalCulatorViewController.xib */,
+				F5F6CABD1F622373004ED2BE /* Calculator.swift */,
 			);
 			path = Calculator;
 			sourceTree = "<group>";
@@ -497,6 +500,7 @@
 			files = (
 				F5E2566B1F564374003F5D2B /* LocationViewController.swift in Sources */,
 				F5F3156D1F54ECBE00CF017A /* ViewController.swift in Sources */,
+				F5F6CABE1F622373004ED2BE /* Calculator.swift in Sources */,
 				F5675C631F5F7D770038C3DE /* GitHubSignUpViewController2.swift in Sources */,
 				F5F2937E1F5CE01B00DA545D /* Protocols.swift in Sources */,
 				F5675C5D1F5F7C8A0038C3DE /* SharedSequence.swift in Sources */,

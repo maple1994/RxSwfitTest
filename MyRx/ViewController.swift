@@ -54,6 +54,8 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
             cell?.detailTextLabel?.text = "APIWrapper"
         case 6:
             cell?.textLabel?.text = "计算器"
+        case 7:
+            cell?.textLabel?.text = "UIImagePicker"
         default:
             break
         }
@@ -83,6 +85,9 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
             navigationController?.pushViewController(vc, animated: true)
         case 6:
             let vc = CalCulatorViewController()
+            navigationController?.pushViewController(vc, animated: true)
+        case 7:
+            let vc = ImagePickerController()
             navigationController?.pushViewController(vc, animated: true)
         default:
             break

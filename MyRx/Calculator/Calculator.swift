@@ -90,14 +90,18 @@ extension CalculatorState {
         case .operation(let o):
             switch state {
             case let .oneOperand(screen):
+                // 如果只有一个操作数，就添加操作符
                 return .oneOperandAndOperator(operand: screen.doubleValue, operator: o)
+                // 如果有一个操作数和操作符，就替换操作符
             case let .oneOperandAndOperator(operand, _):
                 return .oneOperandAndOperator(operand: operand, operator: o)
+                // 如果有两个操作数和一个操作符，将他们的计算结果作为操作数保留，然后加入新的操作符，以及一个操作数 0.
             case let .twoOperandAndOperator(operand, oldOperator, screen):
                 return .twoOperandAndOperator(operand: oldOperator.perform(operand, screen.doubleValue), operator: o, screen: "0")
             }
         case .equal:
             switch state {
+                //如果当前有两个操作数和一个操作符，将他们的计算结果作为操作数保留。否则什么都不做。
                 case let .twoOperandAndOperator(operand, opeart, screen):
                 let result = opeart.perform(operand, screen.doubleValue)
                 return .oneOperand(screen: String(result))

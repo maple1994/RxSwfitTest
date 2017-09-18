@@ -28,6 +28,9 @@
 		F57E91D31F5708BB004DD375 /* GeoLocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57E91D21F5708BB004DD375 /* GeoLocationService.swift */; };
 		F57E91D51F570A27004DD375 /* CLLocationManager+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57E91D41F570A27004DD375 /* CLLocationManager+Rx.swift */; };
 		F57E91D71F570AF6004DD375 /* RxCLLocationManagerDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57E91D61F570AF6004DD375 /* RxCLLocationManagerDelegateProxy.swift */; };
+		F59080331F6B61FF00FD6A0B /* UIImagePickerController+RxCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59080321F6B61FF00FD6A0B /* UIImagePickerController+RxCreator.swift */; };
+		F5CC5CF51F6F4F3700C5CB3E /* ImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CC5CF31F6F4F3700C5CB3E /* ImagePickerController.swift */; };
+		F5CC5CF61F6F4F3700C5CB3E /* ImagePickerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5CC5CF41F6F4F3700C5CB3E /* ImagePickerController.xib */; };
 		F5E256651F563B30003F5D2B /* ValidationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E256641F563B30003F5D2B /* ValidationViewController.swift */; };
 		F5E256671F563B39003F5D2B /* ValidationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5E256661F563B39003F5D2B /* ValidationViewController.xib */; };
 		F5E2566B1F564374003F5D2B /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E256691F564374003F5D2B /* LocationViewController.swift */; };
@@ -86,6 +89,9 @@
 		F57E91D21F5708BB004DD375 /* GeoLocationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeoLocationService.swift; sourceTree = "<group>"; };
 		F57E91D41F570A27004DD375 /* CLLocationManager+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CLLocationManager+Rx.swift"; sourceTree = "<group>"; };
 		F57E91D61F570AF6004DD375 /* RxCLLocationManagerDelegateProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxCLLocationManagerDelegateProxy.swift; sourceTree = "<group>"; };
+		F59080321F6B61FF00FD6A0B /* UIImagePickerController+RxCreator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImagePickerController+RxCreator.swift"; sourceTree = "<group>"; };
+		F5CC5CF31F6F4F3700C5CB3E /* ImagePickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickerController.swift; sourceTree = "<group>"; };
+		F5CC5CF41F6F4F3700C5CB3E /* ImagePickerController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImagePickerController.xib; sourceTree = "<group>"; };
 		F5E256641F563B30003F5D2B /* ValidationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationViewController.swift; sourceTree = "<group>"; };
 		F5E256661F563B39003F5D2B /* ValidationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ValidationViewController.xib; sourceTree = "<group>"; };
 		F5E256691F564374003F5D2B /* LocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
@@ -203,6 +209,16 @@
 			path = APIWrappers;
 			sourceTree = "<group>";
 		};
+		F59080311F6B61EA00FD6A0B /* ImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				F59080321F6B61FF00FD6A0B /* UIImagePickerController+RxCreator.swift */,
+				F5CC5CF31F6F4F3700C5CB3E /* ImagePickerController.swift */,
+				F5CC5CF41F6F4F3700C5CB3E /* ImagePickerController.xib */,
+			);
+			path = ImagePicker;
+			sourceTree = "<group>";
+		};
 		F5C9EC851F5BFD1F00BB95A5 /* githubBinding */ = {
 			isa = PBXGroup;
 			children = (
@@ -261,6 +277,7 @@
 		F5F315691F54ECBE00CF017A /* MyRx */ = {
 			isa = PBXGroup;
 			children = (
+				F59080311F6B61EA00FD6A0B /* ImagePicker */,
 				F525849F1F6195AF00792094 /* Calculator */,
 				F5675C681F6000AC0038C3DE /* APIWrappers */,
 				F5C9EC851F5BFD1F00BB95A5 /* githubBinding */,
@@ -425,6 +442,7 @@
 				F5675C651F5F7D820038C3DE /* GitHubSignUpViewController2.xib in Resources */,
 				F57E91D11F570567004DD375 /* NoGeolocationView.xib in Resources */,
 				F5F315721F54ECBE00CF017A /* Assets.xcassets in Resources */,
+				F5CC5CF61F6F4F3700C5CB3E /* ImagePickerController.xib in Resources */,
 				F5E256671F563B39003F5D2B /* ValidationViewController.xib in Resources */,
 				F5675C5A1F5F7C8A0038C3DE /* GithubBindingViewController.xib in Resources */,
 				F5F3159C1F54EEDC00CF017A /* PlusViewController.xib in Resources */,
@@ -501,6 +519,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F59080331F6B61FF00FD6A0B /* UIImagePickerController+RxCreator.swift in Sources */,
 				F5E2566B1F564374003F5D2B /* LocationViewController.swift in Sources */,
 				F5F3156D1F54ECBE00CF017A /* ViewController.swift in Sources */,
 				F5F6CABE1F622373004ED2BE /* Calculator.swift in Sources */,
@@ -519,6 +538,7 @@
 				F57E91D31F5708BB004DD375 /* GeoLocationService.swift in Sources */,
 				F5F6CAC01F624AB8004ED2BE /* Observable+Extensions.swift in Sources */,
 				F5675C591F5F7C8A0038C3DE /* GithubBindingViewController.swift in Sources */,
+				F5CC5CF51F6F4F3700C5CB3E /* ImagePickerController.swift in Sources */,
 				F5675C671F5F7D9F0038C3DE /* GitHubSignUpViewModel2.swift in Sources */,
 				F5675C611F5F7D5A0038C3DE /* GithubSignupViewModel.swift in Sources */,
 				F5E256651F563B30003F5D2B /* ValidationViewController.swift in Sources */,
@@ -679,6 +699,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 53D2P848US;
 				INFOPLIST_FILE = MyRx/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.maple.MyRx;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -693,6 +714,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 53D2P848US;
 				INFOPLIST_FILE = MyRx/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.maple.MyRx;
 				PRODUCT_NAME = "$(TARGET_NAME)";

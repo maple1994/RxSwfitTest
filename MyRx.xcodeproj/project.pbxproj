@@ -11,6 +11,11 @@
 		F52584961F60D45500792094 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52584951F60D45500792094 /* Operators.swift */; };
 		F52584A21F6195BD00792094 /* CalCulatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52584A01F6195BD00792094 /* CalCulatorViewController.swift */; };
 		F52584A31F6195BD00792094 /* CalCulatorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F52584A11F6195BD00792094 /* CalCulatorViewController.xib */; };
+		F53E7E651F7000810052CB2B /* SimplePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53E7E641F7000810052CB2B /* SimplePickerViewController.swift */; };
+		F53E7E671F70008D0052CB2B /* CustomPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53E7E661F70008D0052CB2B /* CustomPickerViewController.swift */; };
+		F53E7E691F7000A20052CB2B /* MyTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53E7E681F7000A20052CB2B /* MyTabBarViewController.swift */; };
+		F53E7E6B1F7002B00052CB2B /* SimplePickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F53E7E6A1F7002B00052CB2B /* SimplePickerViewController.xib */; };
+		F53E7E6D1F7007600052CB2B /* CustomPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F53E7E6C1F7007600052CB2B /* CustomPickerViewController.xib */; };
 		F5675C591F5F7C8A0038C3DE /* GithubBindingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5675C511F5F7C8A0038C3DE /* GithubBindingViewController.swift */; };
 		F5675C5A1F5F7C8A0038C3DE /* GithubBindingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5675C521F5F7C8A0038C3DE /* GithubBindingViewController.xib */; };
 		F5675C5B1F5F7C8A0038C3DE /* GitHubDefaultAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5675C551F5F7C8A0038C3DE /* GitHubDefaultAPI.swift */; };
@@ -72,6 +77,11 @@
 		F52584951F60D45500792094 /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
 		F52584A01F6195BD00792094 /* CalCulatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalCulatorViewController.swift; sourceTree = "<group>"; };
 		F52584A11F6195BD00792094 /* CalCulatorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalCulatorViewController.xib; sourceTree = "<group>"; };
+		F53E7E641F7000810052CB2B /* SimplePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimplePickerViewController.swift; sourceTree = "<group>"; };
+		F53E7E661F70008D0052CB2B /* CustomPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPickerViewController.swift; sourceTree = "<group>"; };
+		F53E7E681F7000A20052CB2B /* MyTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTabBarViewController.swift; sourceTree = "<group>"; };
+		F53E7E6A1F7002B00052CB2B /* SimplePickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimplePickerViewController.xib; sourceTree = "<group>"; };
+		F53E7E6C1F7007600052CB2B /* CustomPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomPickerViewController.xib; sourceTree = "<group>"; };
 		F5675C511F5F7C8A0038C3DE /* GithubBindingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubBindingViewController.swift; sourceTree = "<group>"; };
 		F5675C521F5F7C8A0038C3DE /* GithubBindingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GithubBindingViewController.xib; sourceTree = "<group>"; };
 		F5675C551F5F7C8A0038C3DE /* GitHubDefaultAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubDefaultAPI.swift; sourceTree = "<group>"; };
@@ -167,6 +177,18 @@
 				F5F6CABD1F622373004ED2BE /* Calculator.swift */,
 			);
 			path = Calculator;
+			sourceTree = "<group>";
+		};
+		F53E7E631F70006A0052CB2B /* pickerView */ = {
+			isa = PBXGroup;
+			children = (
+				F53E7E641F7000810052CB2B /* SimplePickerViewController.swift */,
+				F53E7E661F70008D0052CB2B /* CustomPickerViewController.swift */,
+				F53E7E681F7000A20052CB2B /* MyTabBarViewController.swift */,
+				F53E7E6A1F7002B00052CB2B /* SimplePickerViewController.xib */,
+				F53E7E6C1F7007600052CB2B /* CustomPickerViewController.xib */,
+			);
+			path = pickerView;
 			sourceTree = "<group>";
 		};
 		F5675C501F5F7C8A0038C3DE /* Bind */ = {
@@ -277,6 +299,7 @@
 		F5F315691F54ECBE00CF017A /* MyRx */ = {
 			isa = PBXGroup;
 			children = (
+				F53E7E631F70006A0052CB2B /* pickerView */,
 				F59080311F6B61EA00FD6A0B /* ImagePicker */,
 				F525849F1F6195AF00792094 /* Calculator */,
 				F5675C681F6000AC0038C3DE /* APIWrappers */,
@@ -441,12 +464,14 @@
 				F57E91CD1F570412004DD375 /* LocationViewController.xib in Resources */,
 				F5675C651F5F7D820038C3DE /* GitHubSignUpViewController2.xib in Resources */,
 				F57E91D11F570567004DD375 /* NoGeolocationView.xib in Resources */,
+				F53E7E6B1F7002B00052CB2B /* SimplePickerViewController.xib in Resources */,
 				F5F315721F54ECBE00CF017A /* Assets.xcassets in Resources */,
 				F5CC5CF61F6F4F3700C5CB3E /* ImagePickerController.xib in Resources */,
 				F5E256671F563B39003F5D2B /* ValidationViewController.xib in Resources */,
 				F5675C5A1F5F7C8A0038C3DE /* GithubBindingViewController.xib in Resources */,
 				F5F3159C1F54EEDC00CF017A /* PlusViewController.xib in Resources */,
 				F5F315701F54ECBE00CF017A /* Main.storyboard in Resources */,
+				F53E7E6D1F7007600052CB2B /* CustomPickerViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -523,6 +548,7 @@
 				F5E2566B1F564374003F5D2B /* LocationViewController.swift in Sources */,
 				F5F3156D1F54ECBE00CF017A /* ViewController.swift in Sources */,
 				F5F6CABE1F622373004ED2BE /* Calculator.swift in Sources */,
+				F53E7E671F70008D0052CB2B /* CustomPickerViewController.swift in Sources */,
 				F5675C631F5F7D770038C3DE /* GitHubSignUpViewController2.swift in Sources */,
 				F5F2937E1F5CE01B00DA545D /* Protocols.swift in Sources */,
 				F5675C5D1F5F7C8A0038C3DE /* SharedSequence.swift in Sources */,
@@ -536,6 +562,7 @@
 				F57E91CF1F57055F004DD375 /* NoGeolocationView.swift in Sources */,
 				F57E91D51F570A27004DD375 /* CLLocationManager+Rx.swift in Sources */,
 				F57E91D31F5708BB004DD375 /* GeoLocationService.swift in Sources */,
+				F53E7E691F7000A20052CB2B /* MyTabBarViewController.swift in Sources */,
 				F5F6CAC01F624AB8004ED2BE /* Observable+Extensions.swift in Sources */,
 				F5675C591F5F7C8A0038C3DE /* GithubBindingViewController.swift in Sources */,
 				F5CC5CF51F6F4F3700C5CB3E /* ImagePickerController.swift in Sources */,
@@ -543,6 +570,7 @@
 				F5675C611F5F7D5A0038C3DE /* GithubSignupViewModel.swift in Sources */,
 				F5E256651F563B30003F5D2B /* ValidationViewController.swift in Sources */,
 				F5675C5B1F5F7C8A0038C3DE /* GitHubDefaultAPI.swift in Sources */,
+				F53E7E651F7000810052CB2B /* SimplePickerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

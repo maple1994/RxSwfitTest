@@ -56,6 +56,8 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
             cell?.textLabel?.text = "计算器"
         case 7:
             cell?.textLabel?.text = "UIImagePicker"
+        case 8:
+            cell?.textLabel?.text = "PickerView"
         default:
             break
         }
@@ -88,6 +90,9 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
             navigationController?.pushViewController(vc, animated: true)
         case 7:
             let vc = ImagePickerController()
+            navigationController?.pushViewController(vc, animated: true)
+        case 8:
+            let vc = MyTabBarViewController()
             navigationController?.pushViewController(vc, animated: true)
         default:
             break

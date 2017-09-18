@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SimplePickerViewController" customModule="MyRx" customModuleProvider="target">
+            <connections>
+                <outlet property="pickerView1" destination="cxC-db-8c8" id="Jxm-2l-n02"/>
+                <outlet property="pickerView2" destination="TXG-00-gdd" id="MhP-n7-hAU"/>
+                <outlet property="pickerView3" destination="nyv-W2-5PR" id="xuX-4R-8yI"/>
+                <outlet property="view" destination="iN0-l3-epB" id="uha-HE-tLM"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cxC-db-8c8">
+                    <rect key="frame" x="0.0" y="64" width="375" height="150"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="150" id="Qno-BG-WeW"/>
+                    </constraints>
+                </pickerView>
+                <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nyv-W2-5PR">
+                    <rect key="frame" x="0.0" y="364" width="375" height="150"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="150" id="dJK-Rk-hgb"/>
+                    </constraints>
+                </pickerView>
+                <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TXG-00-gdd">
+                    <rect key="frame" x="0.0" y="214" width="375" height="150"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="150" id="BQh-0P-18R"/>
+                    </constraints>
+                </pickerView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="TXG-00-gdd" firstAttribute="top" secondItem="cxC-db-8c8" secondAttribute="bottom" id="3L6-Tt-CyR"/>
+                <constraint firstItem="cxC-db-8c8" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="64" id="Fyv-ON-32x"/>
+                <constraint firstItem="cxC-db-8c8" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="aBK-Jl-oFT"/>
+                <constraint firstItem="nyv-W2-5PR" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="mVB-sA-mVw"/>
+                <constraint firstAttribute="trailing" secondItem="cxC-db-8c8" secondAttribute="trailing" id="neJ-IH-xmD"/>
+                <constraint firstAttribute="trailing" secondItem="TXG-00-gdd" secondAttribute="trailing" id="qFx-gf-ljz"/>
+                <constraint firstItem="nyv-W2-5PR" firstAttribute="top" secondItem="TXG-00-gdd" secondAttribute="bottom" id="qTT-aS-wig"/>
+                <constraint firstItem="TXG-00-gdd" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="xCv-9U-ZNf"/>
+                <constraint firstAttribute="trailing" secondItem="nyv-W2-5PR" secondAttribute="trailing" id="xKD-2D-3kV"/>
+            </constraints>
+            <point key="canvasLocation" x="25.5" y="51.5"/>
+        </view>
+    </objects>
+</document>

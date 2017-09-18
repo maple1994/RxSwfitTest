@@ -16,6 +16,8 @@
 		F53E7E691F7000A20052CB2B /* MyTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53E7E681F7000A20052CB2B /* MyTabBarViewController.swift */; };
 		F53E7E6B1F7002B00052CB2B /* SimplePickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F53E7E6A1F7002B00052CB2B /* SimplePickerViewController.xib */; };
 		F53E7E6D1F7007600052CB2B /* CustomPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F53E7E6C1F7007600052CB2B /* CustomPickerViewController.xib */; };
+		F53E7E711F700D2E0052CB2B /* SimpleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53E7E701F700D2E0052CB2B /* SimpleTableViewController.swift */; };
+		F53E7E731F700D360052CB2B /* SimpleTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F53E7E721F700D360052CB2B /* SimpleTableViewController.xib */; };
 		F5675C591F5F7C8A0038C3DE /* GithubBindingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5675C511F5F7C8A0038C3DE /* GithubBindingViewController.swift */; };
 		F5675C5A1F5F7C8A0038C3DE /* GithubBindingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5675C521F5F7C8A0038C3DE /* GithubBindingViewController.xib */; };
 		F5675C5B1F5F7C8A0038C3DE /* GitHubDefaultAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5675C551F5F7C8A0038C3DE /* GitHubDefaultAPI.swift */; };
@@ -82,6 +84,8 @@
 		F53E7E681F7000A20052CB2B /* MyTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTabBarViewController.swift; sourceTree = "<group>"; };
 		F53E7E6A1F7002B00052CB2B /* SimplePickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimplePickerViewController.xib; sourceTree = "<group>"; };
 		F53E7E6C1F7007600052CB2B /* CustomPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomPickerViewController.xib; sourceTree = "<group>"; };
+		F53E7E701F700D2E0052CB2B /* SimpleTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleTableViewController.swift; sourceTree = "<group>"; };
+		F53E7E721F700D360052CB2B /* SimpleTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleTableViewController.xib; sourceTree = "<group>"; };
 		F5675C511F5F7C8A0038C3DE /* GithubBindingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubBindingViewController.swift; sourceTree = "<group>"; };
 		F5675C521F5F7C8A0038C3DE /* GithubBindingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GithubBindingViewController.xib; sourceTree = "<group>"; };
 		F5675C551F5F7C8A0038C3DE /* GitHubDefaultAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubDefaultAPI.swift; sourceTree = "<group>"; };
@@ -189,6 +193,15 @@
 				F53E7E6C1F7007600052CB2B /* CustomPickerViewController.xib */,
 			);
 			path = pickerView;
+			sourceTree = "<group>";
+		};
+		F53E7E6F1F700D020052CB2B /* simpleTableView */ = {
+			isa = PBXGroup;
+			children = (
+				F53E7E701F700D2E0052CB2B /* SimpleTableViewController.swift */,
+				F53E7E721F700D360052CB2B /* SimpleTableViewController.xib */,
+			);
+			path = simpleTableView;
 			sourceTree = "<group>";
 		};
 		F5675C501F5F7C8A0038C3DE /* Bind */ = {
@@ -299,6 +312,7 @@
 		F5F315691F54ECBE00CF017A /* MyRx */ = {
 			isa = PBXGroup;
 			children = (
+				F53E7E6F1F700D020052CB2B /* simpleTableView */,
 				F53E7E631F70006A0052CB2B /* pickerView */,
 				F59080311F6B61EA00FD6A0B /* ImagePicker */,
 				F525849F1F6195AF00792094 /* Calculator */,
@@ -461,6 +475,7 @@
 				F5F315751F54ECBE00CF017A /* LaunchScreen.storyboard in Resources */,
 				F52584A31F6195BD00792094 /* CalCulatorViewController.xib in Resources */,
 				F5675C6C1F6005100038C3DE /* APIWrappersViewController.xib in Resources */,
+				F53E7E731F700D360052CB2B /* SimpleTableViewController.xib in Resources */,
 				F57E91CD1F570412004DD375 /* LocationViewController.xib in Resources */,
 				F5675C651F5F7D820038C3DE /* GitHubSignUpViewController2.xib in Resources */,
 				F57E91D11F570567004DD375 /* NoGeolocationView.xib in Resources */,
@@ -555,6 +570,7 @@
 				F5675C6B1F6005100038C3DE /* APIWrappersViewController.swift in Sources */,
 				F52584A21F6195BD00792094 /* CalCulatorViewController.swift in Sources */,
 				F52584961F60D45500792094 /* Operators.swift in Sources */,
+				F53E7E711F700D2E0052CB2B /* SimpleTableViewController.swift in Sources */,
 				F5F3156B1F54ECBE00CF017A /* AppDelegate.swift in Sources */,
 				F5675C5E1F5F7C8A0038C3DE /* Wireframe.swift in Sources */,
 				F5F3159B1F54EEDC00CF017A /* PlusViewController.swift in Sources */,

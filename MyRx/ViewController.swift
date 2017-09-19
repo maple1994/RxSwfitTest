@@ -62,6 +62,8 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
             cell?.textLabel?.text = "UITableView的简单使用"
         case 10:
             cell?.textLabel?.text = "UITableView带SectionHeader的简单使用"
+        case 11:
+            cell?.textLabel?.text = "UITableView的命令使用"
         default:
             break
         }
@@ -103,6 +105,9 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
             navigationController?.pushViewController(vc, animated: true)
         case 10:
             let vc = SimpleSectionViewController()
+            navigationController?.pushViewController(vc, animated: true)
+        case 11:
+            let vc = TableViewWithEditingCommandViewController()
             navigationController?.pushViewController(vc, animated: true)
         default:
             break

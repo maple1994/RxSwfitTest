@@ -63,6 +63,13 @@
 		F5927F771F70A3D70066B62C /* RxTableViewSectionedAnimatedDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5927F5E1F70A3D70066B62C /* RxTableViewSectionedAnimatedDataSource.swift */; };
 		F5927F781F70A3D70066B62C /* RxTableViewSectionedReloadDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5927F5F1F70A3D70066B62C /* RxTableViewSectionedReloadDataSource.swift */; };
 		F5927F791F70A3D70066B62C /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = F5927F601F70A3D70066B62C /* README.md */; };
+		F595DA261F713BC3000841AC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F595DA251F713BC3000841AC /* User.swift */; };
+		F595DA2A1F713CCE000841AC /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F595DA291F713CCE000841AC /* UIImageView+Extension.swift */; };
+		F595DA2C1F713D32000841AC /* RamdomUserAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F595DA2B1F713D32000841AC /* RamdomUserAPI.swift */; };
+		F595DA2F1F713F67000841AC /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F595DA2D1F713F67000841AC /* DetailsViewController.swift */; };
+		F595DA301F713F67000841AC /* DetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F595DA2E1F713F67000841AC /* DetailsViewController.xib */; };
+		F595DA331F71416C000841AC /* TableViewWithEditingCommandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F595DA311F71416C000841AC /* TableViewWithEditingCommandViewController.swift */; };
+		F595DA341F71416C000841AC /* TableViewWithEditingCommandViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F595DA321F71416C000841AC /* TableViewWithEditingCommandViewController.xib */; };
 		F5CC5CF51F6F4F3700C5CB3E /* ImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CC5CF31F6F4F3700C5CB3E /* ImagePickerController.swift */; };
 		F5CC5CF61F6F4F3700C5CB3E /* ImagePickerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5CC5CF41F6F4F3700C5CB3E /* ImagePickerController.xib */; };
 		F5E256651F563B30003F5D2B /* ValidationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E256641F563B30003F5D2B /* ValidationViewController.swift */; };
@@ -158,6 +165,13 @@
 		F5927F5E1F70A3D70066B62C /* RxTableViewSectionedAnimatedDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxTableViewSectionedAnimatedDataSource.swift; sourceTree = "<group>"; };
 		F5927F5F1F70A3D70066B62C /* RxTableViewSectionedReloadDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxTableViewSectionedReloadDataSource.swift; sourceTree = "<group>"; };
 		F5927F601F70A3D70066B62C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F595DA251F713BC3000841AC /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F595DA291F713CCE000841AC /* UIImageView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		F595DA2B1F713D32000841AC /* RamdomUserAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RamdomUserAPI.swift; sourceTree = "<group>"; };
+		F595DA2D1F713F67000841AC /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		F595DA2E1F713F67000841AC /* DetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailsViewController.xib; sourceTree = "<group>"; };
+		F595DA311F71416C000841AC /* TableViewWithEditingCommandViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewWithEditingCommandViewController.swift; sourceTree = "<group>"; };
+		F595DA321F71416C000841AC /* TableViewWithEditingCommandViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewWithEditingCommandViewController.xib; sourceTree = "<group>"; };
 		F5CC5CF31F6F4F3700C5CB3E /* ImagePickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickerController.swift; sourceTree = "<group>"; };
 		F5CC5CF41F6F4F3700C5CB3E /* ImagePickerController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImagePickerController.xib; sourceTree = "<group>"; };
 		F5E256641F563B30003F5D2B /* ValidationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationViewController.swift; sourceTree = "<group>"; };
@@ -365,6 +379,20 @@
 			path = "DataSources+Rx";
 			sourceTree = "<group>";
 		};
+		F595DA221F713BAB000841AC /* tableViewWithEditingCommand */ = {
+			isa = PBXGroup;
+			children = (
+				F595DA251F713BC3000841AC /* User.swift */,
+				F595DA291F713CCE000841AC /* UIImageView+Extension.swift */,
+				F595DA2B1F713D32000841AC /* RamdomUserAPI.swift */,
+				F595DA2D1F713F67000841AC /* DetailsViewController.swift */,
+				F595DA2E1F713F67000841AC /* DetailsViewController.xib */,
+				F595DA311F71416C000841AC /* TableViewWithEditingCommandViewController.swift */,
+				F595DA321F71416C000841AC /* TableViewWithEditingCommandViewController.xib */,
+			);
+			path = tableViewWithEditingCommand;
+			sourceTree = "<group>";
+		};
 		F5C9EC851F5BFD1F00BB95A5 /* githubBinding */ = {
 			isa = PBXGroup;
 			children = (
@@ -423,6 +451,7 @@
 		F5F315691F54ECBE00CF017A /* MyRx */ = {
 			isa = PBXGroup;
 			children = (
+				F595DA221F713BAB000841AC /* tableViewWithEditingCommand */,
 				F5927F451F70A3D70066B62C /* RxDataSources */,
 				F5927F401F70A2D30066B62C /* sipleSectionTableview */,
 				F53E7E6F1F700D020052CB2B /* simpleTableView */,
@@ -591,6 +620,8 @@
 				F53E7E731F700D360052CB2B /* SimpleTableViewController.xib in Resources */,
 				F57E91CD1F570412004DD375 /* LocationViewController.xib in Resources */,
 				F5675C651F5F7D820038C3DE /* GitHubSignUpViewController2.xib in Resources */,
+				F595DA301F713F67000841AC /* DetailsViewController.xib in Resources */,
+				F595DA341F71416C000841AC /* TableViewWithEditingCommandViewController.xib in Resources */,
 				F57E91D11F570567004DD375 /* NoGeolocationView.xib in Resources */,
 				F53E7E6B1F7002B00052CB2B /* SimplePickerViewController.xib in Resources */,
 				F5F315721F54ECBE00CF017A /* Assets.xcassets in Resources */,
@@ -675,8 +706,10 @@
 			files = (
 				F59080331F6B61FF00FD6A0B /* UIImagePickerController+RxCreator.swift in Sources */,
 				F5E2566B1F564374003F5D2B /* LocationViewController.swift in Sources */,
+				F595DA2A1F713CCE000841AC /* UIImageView+Extension.swift in Sources */,
 				F5927F661F70A3D70066B62C /* Changeset.swift in Sources */,
 				F5927F631F70A3D70066B62C /* AnimatableSectionModelType.swift in Sources */,
+				F595DA331F71416C000841AC /* TableViewWithEditingCommandViewController.swift in Sources */,
 				F5F3156D1F54ECBE00CF017A /* ViewController.swift in Sources */,
 				F5927F6A1F70A3D70066B62C /* FloatingPointType+IdentifiableType.swift in Sources */,
 				F5F6CABE1F622373004ED2BE /* Calculator.swift in Sources */,
@@ -700,12 +733,14 @@
 				F5F3156B1F54ECBE00CF017A /* AppDelegate.swift in Sources */,
 				F5675C5E1F5F7C8A0038C3DE /* Wireframe.swift in Sources */,
 				F5927F6E1F70A3D70066B62C /* ItemPath.swift in Sources */,
+				F595DA2C1F713D32000841AC /* RamdomUserAPI.swift in Sources */,
 				F5F3159B1F54EEDC00CF017A /* PlusViewController.swift in Sources */,
 				F57E91D71F570AF6004DD375 /* RxCLLocationManagerDelegateProxy.swift in Sources */,
 				F5927F691F70A3D70066B62C /* Differentiator.swift in Sources */,
 				F57E91CF1F57055F004DD375 /* NoGeolocationView.swift in Sources */,
 				F57E91D51F570A27004DD375 /* CLLocationManager+Rx.swift in Sources */,
 				F57E91D31F5708BB004DD375 /* GeoLocationService.swift in Sources */,
+				F595DA2F1F713F67000841AC /* DetailsViewController.swift in Sources */,
 				F5927F731F70A3D70066B62C /* TableViewSectionedDataSource.swift in Sources */,
 				F53E7E691F7000A20052CB2B /* MyTabBarViewController.swift in Sources */,
 				F5927F681F70A3D70066B62C /* DataSources.swift in Sources */,
@@ -716,6 +751,7 @@
 				F5CC5CF51F6F4F3700C5CB3E /* ImagePickerController.swift in Sources */,
 				F5675C671F5F7D9F0038C3DE /* GitHubSignUpViewModel2.swift in Sources */,
 				F5927F791F70A3D70066B62C /* README.md in Sources */,
+				F595DA261F713BC3000841AC /* User.swift in Sources */,
 				F5675C611F5F7D5A0038C3DE /* GithubSignupViewModel.swift in Sources */,
 				F5927F621F70A3D70066B62C /* AnimatableSectionModelType+ItemPath.swift in Sources */,
 				F5927F701F70A3D70066B62C /* SectionModel.swift in Sources */,

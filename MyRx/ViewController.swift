@@ -25,7 +25,7 @@ class ViewController: UIViewController {
 
 extension ViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        return 20
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -60,6 +60,8 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
             cell?.textLabel?.text = "PickerView"
         case 9:
             cell?.textLabel?.text = "UITableView的简单使用"
+        case 10:
+            cell?.textLabel?.text = "UITableView带SectionHeader的简单使用"
         default:
             break
         }
@@ -98,6 +100,9 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
             navigationController?.pushViewController(vc, animated: true)
         case 9:
             let vc = SimpleTableViewController()
+            navigationController?.pushViewController(vc, animated: true)
+        case 10:
+            let vc = SimpleSectionViewController()
             navigationController?.pushViewController(vc, animated: true)
         default:
             break

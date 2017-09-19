@@ -36,6 +36,33 @@
 		F57E91D51F570A27004DD375 /* CLLocationManager+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57E91D41F570A27004DD375 /* CLLocationManager+Rx.swift */; };
 		F57E91D71F570AF6004DD375 /* RxCLLocationManagerDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57E91D61F570AF6004DD375 /* RxCLLocationManagerDelegateProxy.swift */; };
 		F59080331F6B61FF00FD6A0B /* UIImagePickerController+RxCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59080321F6B61FF00FD6A0B /* UIImagePickerController+RxCreator.swift */; };
+		F5927F431F70A2E30066B62C /* SimpleSectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5927F411F70A2E30066B62C /* SimpleSectionViewController.swift */; };
+		F5927F441F70A2E30066B62C /* SimpleSectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5927F421F70A2E30066B62C /* SimpleSectionViewController.xib */; };
+		F5927F611F70A3D70066B62C /* AnimatableSectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5927F471F70A3D70066B62C /* AnimatableSectionModel.swift */; };
+		F5927F621F70A3D70066B62C /* AnimatableSectionModelType+ItemPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5927F481F70A3D70066B62C /* AnimatableSectionModelType+ItemPath.swift */; };
+		F5927F631F70A3D70066B62C /* AnimatableSectionModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5927F491F70A3D70066B62C /* AnimatableSectionModelType.swift */; };
+		F5927F641F70A3D70066B62C /* AnimationConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5927F4A1F70A3D70066B62C /* AnimationConfiguration.swift */; };
+		F5927F651F70A3D70066B62C /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5927F4B1F70A3D70066B62C /* Array+Extensions.swift */; };
+		F5927F661F70A3D70066B62C /* Changeset.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5927F4C1F70A3D70066B62C /* Changeset.swift */; };
+		F5927F671F70A3D70066B62C /* CollectionViewSectionedDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5927F4D1F70A3D70066B62C /* CollectionViewSectionedDataSource.swift */; };
+		F5927F681F70A3D70066B62C /* DataSources.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5927F4E1F70A3D70066B62C /* DataSources.swift */; };
+		F5927F691F70A3D70066B62C /* Differentiator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5927F4F1F70A3D70066B62C /* Differentiator.swift */; };
+		F5927F6A1F70A3D70066B62C /* FloatingPointType+IdentifiableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5927F501F70A3D70066B62C /* FloatingPointType+IdentifiableType.swift */; };
+		F5927F6B1F70A3D70066B62C /* IdentifiableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5927F511F70A3D70066B62C /* IdentifiableType.swift */; };
+		F5927F6C1F70A3D70066B62C /* IdentifiableValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5927F521F70A3D70066B62C /* IdentifiableValue.swift */; };
+		F5927F6D1F70A3D70066B62C /* IntegerType+IdentifiableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5927F531F70A3D70066B62C /* IntegerType+IdentifiableType.swift */; };
+		F5927F6E1F70A3D70066B62C /* ItemPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5927F541F70A3D70066B62C /* ItemPath.swift */; };
+		F5927F6F1F70A3D70066B62C /* Optional+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5927F551F70A3D70066B62C /* Optional+Extensions.swift */; };
+		F5927F701F70A3D70066B62C /* SectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5927F561F70A3D70066B62C /* SectionModel.swift */; };
+		F5927F711F70A3D70066B62C /* SectionModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5927F571F70A3D70066B62C /* SectionModelType.swift */; };
+		F5927F721F70A3D70066B62C /* String+IdentifiableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5927F581F70A3D70066B62C /* String+IdentifiableType.swift */; };
+		F5927F731F70A3D70066B62C /* TableViewSectionedDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5927F591F70A3D70066B62C /* TableViewSectionedDataSource.swift */; };
+		F5927F741F70A3D70066B62C /* UI+SectionedViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5927F5A1F70A3D70066B62C /* UI+SectionedViewType.swift */; };
+		F5927F751F70A3D70066B62C /* RxCollectionViewSectionedAnimatedDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5927F5C1F70A3D70066B62C /* RxCollectionViewSectionedAnimatedDataSource.swift */; };
+		F5927F761F70A3D70066B62C /* RxCollectionViewSectionedReloadDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5927F5D1F70A3D70066B62C /* RxCollectionViewSectionedReloadDataSource.swift */; };
+		F5927F771F70A3D70066B62C /* RxTableViewSectionedAnimatedDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5927F5E1F70A3D70066B62C /* RxTableViewSectionedAnimatedDataSource.swift */; };
+		F5927F781F70A3D70066B62C /* RxTableViewSectionedReloadDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5927F5F1F70A3D70066B62C /* RxTableViewSectionedReloadDataSource.swift */; };
+		F5927F791F70A3D70066B62C /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = F5927F601F70A3D70066B62C /* README.md */; };
 		F5CC5CF51F6F4F3700C5CB3E /* ImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CC5CF31F6F4F3700C5CB3E /* ImagePickerController.swift */; };
 		F5CC5CF61F6F4F3700C5CB3E /* ImagePickerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5CC5CF41F6F4F3700C5CB3E /* ImagePickerController.xib */; };
 		F5E256651F563B30003F5D2B /* ValidationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E256641F563B30003F5D2B /* ValidationViewController.swift */; };
@@ -104,6 +131,33 @@
 		F57E91D41F570A27004DD375 /* CLLocationManager+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CLLocationManager+Rx.swift"; sourceTree = "<group>"; };
 		F57E91D61F570AF6004DD375 /* RxCLLocationManagerDelegateProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxCLLocationManagerDelegateProxy.swift; sourceTree = "<group>"; };
 		F59080321F6B61FF00FD6A0B /* UIImagePickerController+RxCreator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImagePickerController+RxCreator.swift"; sourceTree = "<group>"; };
+		F5927F411F70A2E30066B62C /* SimpleSectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleSectionViewController.swift; sourceTree = "<group>"; };
+		F5927F421F70A2E30066B62C /* SimpleSectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleSectionViewController.xib; sourceTree = "<group>"; };
+		F5927F471F70A3D70066B62C /* AnimatableSectionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableSectionModel.swift; sourceTree = "<group>"; };
+		F5927F481F70A3D70066B62C /* AnimatableSectionModelType+ItemPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AnimatableSectionModelType+ItemPath.swift"; sourceTree = "<group>"; };
+		F5927F491F70A3D70066B62C /* AnimatableSectionModelType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableSectionModelType.swift; sourceTree = "<group>"; };
+		F5927F4A1F70A3D70066B62C /* AnimationConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationConfiguration.swift; sourceTree = "<group>"; };
+		F5927F4B1F70A3D70066B62C /* Array+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
+		F5927F4C1F70A3D70066B62C /* Changeset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Changeset.swift; sourceTree = "<group>"; };
+		F5927F4D1F70A3D70066B62C /* CollectionViewSectionedDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewSectionedDataSource.swift; sourceTree = "<group>"; };
+		F5927F4E1F70A3D70066B62C /* DataSources.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSources.swift; sourceTree = "<group>"; };
+		F5927F4F1F70A3D70066B62C /* Differentiator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Differentiator.swift; sourceTree = "<group>"; };
+		F5927F501F70A3D70066B62C /* FloatingPointType+IdentifiableType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FloatingPointType+IdentifiableType.swift"; sourceTree = "<group>"; };
+		F5927F511F70A3D70066B62C /* IdentifiableType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdentifiableType.swift; sourceTree = "<group>"; };
+		F5927F521F70A3D70066B62C /* IdentifiableValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdentifiableValue.swift; sourceTree = "<group>"; };
+		F5927F531F70A3D70066B62C /* IntegerType+IdentifiableType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IntegerType+IdentifiableType.swift"; sourceTree = "<group>"; };
+		F5927F541F70A3D70066B62C /* ItemPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemPath.swift; sourceTree = "<group>"; };
+		F5927F551F70A3D70066B62C /* Optional+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Optional+Extensions.swift"; sourceTree = "<group>"; };
+		F5927F561F70A3D70066B62C /* SectionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionModel.swift; sourceTree = "<group>"; };
+		F5927F571F70A3D70066B62C /* SectionModelType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionModelType.swift; sourceTree = "<group>"; };
+		F5927F581F70A3D70066B62C /* String+IdentifiableType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+IdentifiableType.swift"; sourceTree = "<group>"; };
+		F5927F591F70A3D70066B62C /* TableViewSectionedDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewSectionedDataSource.swift; sourceTree = "<group>"; };
+		F5927F5A1F70A3D70066B62C /* UI+SectionedViewType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UI+SectionedViewType.swift"; sourceTree = "<group>"; };
+		F5927F5C1F70A3D70066B62C /* RxCollectionViewSectionedAnimatedDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxCollectionViewSectionedAnimatedDataSource.swift; sourceTree = "<group>"; };
+		F5927F5D1F70A3D70066B62C /* RxCollectionViewSectionedReloadDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxCollectionViewSectionedReloadDataSource.swift; sourceTree = "<group>"; };
+		F5927F5E1F70A3D70066B62C /* RxTableViewSectionedAnimatedDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxTableViewSectionedAnimatedDataSource.swift; sourceTree = "<group>"; };
+		F5927F5F1F70A3D70066B62C /* RxTableViewSectionedReloadDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxTableViewSectionedReloadDataSource.swift; sourceTree = "<group>"; };
+		F5927F601F70A3D70066B62C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F5CC5CF31F6F4F3700C5CB3E /* ImagePickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickerController.swift; sourceTree = "<group>"; };
 		F5CC5CF41F6F4F3700C5CB3E /* ImagePickerController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImagePickerController.xib; sourceTree = "<group>"; };
 		F5E256641F563B30003F5D2B /* ValidationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationViewController.swift; sourceTree = "<group>"; };
@@ -254,6 +308,63 @@
 			path = ImagePicker;
 			sourceTree = "<group>";
 		};
+		F5927F401F70A2D30066B62C /* sipleSectionTableview */ = {
+			isa = PBXGroup;
+			children = (
+				F5927F411F70A2E30066B62C /* SimpleSectionViewController.swift */,
+				F5927F421F70A2E30066B62C /* SimpleSectionViewController.xib */,
+			);
+			path = sipleSectionTableview;
+			sourceTree = "<group>";
+		};
+		F5927F451F70A3D70066B62C /* RxDataSources */ = {
+			isa = PBXGroup;
+			children = (
+				F5927F461F70A3D70066B62C /* DataSources */,
+				F5927F5B1F70A3D70066B62C /* DataSources+Rx */,
+				F5927F601F70A3D70066B62C /* README.md */,
+			);
+			path = RxDataSources;
+			sourceTree = "<group>";
+		};
+		F5927F461F70A3D70066B62C /* DataSources */ = {
+			isa = PBXGroup;
+			children = (
+				F5927F471F70A3D70066B62C /* AnimatableSectionModel.swift */,
+				F5927F481F70A3D70066B62C /* AnimatableSectionModelType+ItemPath.swift */,
+				F5927F491F70A3D70066B62C /* AnimatableSectionModelType.swift */,
+				F5927F4A1F70A3D70066B62C /* AnimationConfiguration.swift */,
+				F5927F4B1F70A3D70066B62C /* Array+Extensions.swift */,
+				F5927F4C1F70A3D70066B62C /* Changeset.swift */,
+				F5927F4D1F70A3D70066B62C /* CollectionViewSectionedDataSource.swift */,
+				F5927F4E1F70A3D70066B62C /* DataSources.swift */,
+				F5927F4F1F70A3D70066B62C /* Differentiator.swift */,
+				F5927F501F70A3D70066B62C /* FloatingPointType+IdentifiableType.swift */,
+				F5927F511F70A3D70066B62C /* IdentifiableType.swift */,
+				F5927F521F70A3D70066B62C /* IdentifiableValue.swift */,
+				F5927F531F70A3D70066B62C /* IntegerType+IdentifiableType.swift */,
+				F5927F541F70A3D70066B62C /* ItemPath.swift */,
+				F5927F551F70A3D70066B62C /* Optional+Extensions.swift */,
+				F5927F561F70A3D70066B62C /* SectionModel.swift */,
+				F5927F571F70A3D70066B62C /* SectionModelType.swift */,
+				F5927F581F70A3D70066B62C /* String+IdentifiableType.swift */,
+				F5927F591F70A3D70066B62C /* TableViewSectionedDataSource.swift */,
+				F5927F5A1F70A3D70066B62C /* UI+SectionedViewType.swift */,
+			);
+			path = DataSources;
+			sourceTree = "<group>";
+		};
+		F5927F5B1F70A3D70066B62C /* DataSources+Rx */ = {
+			isa = PBXGroup;
+			children = (
+				F5927F5C1F70A3D70066B62C /* RxCollectionViewSectionedAnimatedDataSource.swift */,
+				F5927F5D1F70A3D70066B62C /* RxCollectionViewSectionedReloadDataSource.swift */,
+				F5927F5E1F70A3D70066B62C /* RxTableViewSectionedAnimatedDataSource.swift */,
+				F5927F5F1F70A3D70066B62C /* RxTableViewSectionedReloadDataSource.swift */,
+			);
+			path = "DataSources+Rx";
+			sourceTree = "<group>";
+		};
 		F5C9EC851F5BFD1F00BB95A5 /* githubBinding */ = {
 			isa = PBXGroup;
 			children = (
@@ -312,6 +423,8 @@
 		F5F315691F54ECBE00CF017A /* MyRx */ = {
 			isa = PBXGroup;
 			children = (
+				F5927F451F70A3D70066B62C /* RxDataSources */,
+				F5927F401F70A2D30066B62C /* sipleSectionTableview */,
 				F53E7E6F1F700D020052CB2B /* simpleTableView */,
 				F53E7E631F70006A0052CB2B /* pickerView */,
 				F59080311F6B61EA00FD6A0B /* ImagePicker */,
@@ -486,6 +599,7 @@
 				F5675C5A1F5F7C8A0038C3DE /* GithubBindingViewController.xib in Resources */,
 				F5F3159C1F54EEDC00CF017A /* PlusViewController.xib in Resources */,
 				F5F315701F54ECBE00CF017A /* Main.storyboard in Resources */,
+				F5927F441F70A2E30066B62C /* SimpleSectionViewController.xib in Resources */,
 				F53E7E6D1F7007600052CB2B /* CustomPickerViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -561,31 +675,57 @@
 			files = (
 				F59080331F6B61FF00FD6A0B /* UIImagePickerController+RxCreator.swift in Sources */,
 				F5E2566B1F564374003F5D2B /* LocationViewController.swift in Sources */,
+				F5927F661F70A3D70066B62C /* Changeset.swift in Sources */,
+				F5927F631F70A3D70066B62C /* AnimatableSectionModelType.swift in Sources */,
 				F5F3156D1F54ECBE00CF017A /* ViewController.swift in Sources */,
+				F5927F6A1F70A3D70066B62C /* FloatingPointType+IdentifiableType.swift in Sources */,
 				F5F6CABE1F622373004ED2BE /* Calculator.swift in Sources */,
+				F5927F751F70A3D70066B62C /* RxCollectionViewSectionedAnimatedDataSource.swift in Sources */,
+				F5927F431F70A2E30066B62C /* SimpleSectionViewController.swift in Sources */,
+				F5927F761F70A3D70066B62C /* RxCollectionViewSectionedReloadDataSource.swift in Sources */,
 				F53E7E671F70008D0052CB2B /* CustomPickerViewController.swift in Sources */,
 				F5675C631F5F7D770038C3DE /* GitHubSignUpViewController2.swift in Sources */,
 				F5F2937E1F5CE01B00DA545D /* Protocols.swift in Sources */,
+				F5927F6B1F70A3D70066B62C /* IdentifiableType.swift in Sources */,
 				F5675C5D1F5F7C8A0038C3DE /* SharedSequence.swift in Sources */,
 				F5675C6B1F6005100038C3DE /* APIWrappersViewController.swift in Sources */,
+				F5927F771F70A3D70066B62C /* RxTableViewSectionedAnimatedDataSource.swift in Sources */,
 				F52584A21F6195BD00792094 /* CalCulatorViewController.swift in Sources */,
+				F5927F781F70A3D70066B62C /* RxTableViewSectionedReloadDataSource.swift in Sources */,
+				F5927F611F70A3D70066B62C /* AnimatableSectionModel.swift in Sources */,
+				F5927F671F70A3D70066B62C /* CollectionViewSectionedDataSource.swift in Sources */,
 				F52584961F60D45500792094 /* Operators.swift in Sources */,
 				F53E7E711F700D2E0052CB2B /* SimpleTableViewController.swift in Sources */,
+				F5927F6C1F70A3D70066B62C /* IdentifiableValue.swift in Sources */,
 				F5F3156B1F54ECBE00CF017A /* AppDelegate.swift in Sources */,
 				F5675C5E1F5F7C8A0038C3DE /* Wireframe.swift in Sources */,
+				F5927F6E1F70A3D70066B62C /* ItemPath.swift in Sources */,
 				F5F3159B1F54EEDC00CF017A /* PlusViewController.swift in Sources */,
 				F57E91D71F570AF6004DD375 /* RxCLLocationManagerDelegateProxy.swift in Sources */,
+				F5927F691F70A3D70066B62C /* Differentiator.swift in Sources */,
 				F57E91CF1F57055F004DD375 /* NoGeolocationView.swift in Sources */,
 				F57E91D51F570A27004DD375 /* CLLocationManager+Rx.swift in Sources */,
 				F57E91D31F5708BB004DD375 /* GeoLocationService.swift in Sources */,
+				F5927F731F70A3D70066B62C /* TableViewSectionedDataSource.swift in Sources */,
 				F53E7E691F7000A20052CB2B /* MyTabBarViewController.swift in Sources */,
+				F5927F681F70A3D70066B62C /* DataSources.swift in Sources */,
 				F5F6CAC01F624AB8004ED2BE /* Observable+Extensions.swift in Sources */,
 				F5675C591F5F7C8A0038C3DE /* GithubBindingViewController.swift in Sources */,
+				F5927F741F70A3D70066B62C /* UI+SectionedViewType.swift in Sources */,
+				F5927F651F70A3D70066B62C /* Array+Extensions.swift in Sources */,
 				F5CC5CF51F6F4F3700C5CB3E /* ImagePickerController.swift in Sources */,
 				F5675C671F5F7D9F0038C3DE /* GitHubSignUpViewModel2.swift in Sources */,
+				F5927F791F70A3D70066B62C /* README.md in Sources */,
 				F5675C611F5F7D5A0038C3DE /* GithubSignupViewModel.swift in Sources */,
+				F5927F621F70A3D70066B62C /* AnimatableSectionModelType+ItemPath.swift in Sources */,
+				F5927F701F70A3D70066B62C /* SectionModel.swift in Sources */,
 				F5E256651F563B30003F5D2B /* ValidationViewController.swift in Sources */,
 				F5675C5B1F5F7C8A0038C3DE /* GitHubDefaultAPI.swift in Sources */,
+				F5927F711F70A3D70066B62C /* SectionModelType.swift in Sources */,
+				F5927F721F70A3D70066B62C /* String+IdentifiableType.swift in Sources */,
+				F5927F641F70A3D70066B62C /* AnimationConfiguration.swift in Sources */,
+				F5927F6F1F70A3D70066B62C /* Optional+Extensions.swift in Sources */,
+				F5927F6D1F70A3D70066B62C /* IntegerType+IdentifiableType.swift in Sources */,
 				F53E7E651F7000810052CB2B /* SimplePickerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
